@@ -34,7 +34,6 @@ The dataset used for this project is the **Credit Card Fraud Detection dataset**
 ## Getting Started
 
 ### Prerequisites
-
 Make sure you have the following installed:
 
 - Python 3.x
@@ -48,37 +47,34 @@ Make sure you have the following installed:
 4. Extract the ZIP file, and place the `creditcard.csv` file in the project directory.
 
 ### Clone the Repository
-
 To clone the repository, use the following command:
 ```bash
 git clone https://github.com/Malini04/Anomaly_detection_cobblestone.git
 ```
 
-
-###Install Requirements
+### Install Requirements
 Navigate to the project directory and install the required packages using the following command:
 ```bash
 cd Anomaly_detection_cobblestone
 ```
-###Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-###Running the Project
+### Running the Project
 You can run the anomaly detection script using the command line:
 ```bash
 python anomaly_detection.py
 ```
 
-###Project Structure
-```bash
-anomaly_detection.py: The main script for anomaly detection.
-requirements.txt: A list of required Python packages.
-.gitignore: A file that specifies which files and directories to ignore in the repository.
-README.md: This file.
-creditcard.csv
-```
+### Project Structure
+
+- anomaly_detection.py: The main script for anomaly detection.
+- requirements.txt: A list of required Python packages.
+- .gitignore: A file that specifies which files and directories to ignore in the repository.
+- README.md: This file.
+- creditcard.csv
 
 ### Results and Statistics
 After running the script, you will see the output showing the number of anomalies detected by each algorithm. The following statistics will be printed:
@@ -88,13 +84,12 @@ Isolation Forest - Detected Anomalies: X
 Local Outlier Factor - Detected Anomalies: Y
 ```
 
+### References
 
-###References
-```bash
-Credit Card Fraud Detection Dataset: Available on Kaggle
-Isolation Forest: Documentation for Isolation Forest in scikit-learn - scikit-learn Isolation Forest
-Local Outlier Factor: Documentation for LOF in scikit-learn - scikit-learn LOF
-Matplotlib: Official documentation for the Python plotting library - Matplotlib
-Pandas: Data analysis library for Python - Pandas Documentation
-Numpy: Fundamental package for numerical computing in Python - NumPy Documentation
-```
+- Credit Card Fraud Detection Dataset: Available on Kaggle
+- Isolation Forest: Documentation for Isolation Forest in scikit-learn - scikit-learn Isolation Forest
+- Local Outlier Factor: Documentation for LOF in scikit-learn - scikit-learn LOF
+- Matplotlib: Official documentation for the Python plotting library - Matplotlib
+- Pandas: Data analysis library for Python - Pandas Documentation
+- Numpy: Fundamental package for numerical computing in Python - NumPy Documentation
+
