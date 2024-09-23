@@ -90,6 +90,7 @@ Local Outlier Factor - Detected Anomalies: Y
 ### References
 
 - Credit Card Fraud Detection Dataset: Available on Kaggle
+- Credit Card Fraud Detection Dataset: Kaggle Dataset
 - Isolation Forest: Documentation for Isolation Forest in scikit-learn - scikit-learn Isolation Forest
 - Local Outlier Factor: Documentation for LOF in scikit-learn - scikit-learn LOF
 - Matplotlib: Official documentation for the Python plotting library - Matplotlib
