@@ -23,6 +23,7 @@ The project also includes robust error handling and documentation to ensure ease
 The dataset used for this project is the **Credit Card Fraud Detection dataset** available on Kaggle. It contains transactions with various features and a label indicating whether each transaction is fraudulent or legitimate.
 
 ### Sample of the Data
+```bash
   Time, V1, V2, V3, ..., V28, Amount, Class
   0, -1.35980713, 1.19185711, ..., -0.05395037, 149.62, 0
   1, -1.35835305, 2.29212882, ..., 0.25542586, 2.69, 0
