@@ -13,7 +13,8 @@ RANDOM_SEED = 42  # Seed for reproducibility
 LABELS = ["Normal", "Fraud"]  # Labels for class distribution
 
 # Load the dataset
-# df = pd.read_csv('creditcard.csv')
+# change the name of your dataset accordingly...
+df = pd.read_csv('creditcard.csv')
 print(df.head())  # Preview the first few rows of the dataset
 
 # Quick overview of the dataset structure and types
