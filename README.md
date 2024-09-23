@@ -39,6 +39,17 @@ Make sure you have the following installed:
 - Python 3.x
 - pip (Python package manager)
 
+### Project Structure
+```bash
+Anomaly_detection_cobblestone/
+│
+├── anomaly_detection.py        # The main script for anomaly detection.
+├── requirements.txt            # A list of required Python packages.
+├── .gitignore                  # A file that specifies which files and directories to ignore in the repository.
+├── README.md                   # This file.
+└── creditcard.csv              # The dataset for credit card transactions.
+```
+
 ### Download the Dataset
 
 1. Go to the Kaggle dataset page: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
@@ -66,17 +77,6 @@ pip install -r requirements.txt
 You can run the anomaly detection script using the command line:
 ```bash
 python anomaly_detection.py
-```
-
-### Project Structure
-```bash
-Anomaly_detection_cobblestone/
-│
-├── anomaly_detection.py        # The main script for anomaly detection.
-├── requirements.txt            # A list of required Python packages.
-├── .gitignore                  # A file that specifies which files and directories to ignore in the repository.
-├── README.md                   # This file.
-└── creditcard.csv              # The dataset for credit card transactions.
 ```
 
 ### Results and Statistics
