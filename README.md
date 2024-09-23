@@ -29,6 +29,7 @@ The dataset used for this project is the **Credit Card Fraud Detection dataset**
   1, -1.35835305, 2.29212882, ..., 0.25542586, 2.69, 0
   2, -0.96662024, 0.36188434, ..., 0.19811233, 378.66, 0
   ...
+```
 
 ## Getting Started
 
@@ -49,37 +50,51 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 To clone the repository, use the following command:
+```bash
 git clone https://github.com/Malini04/Anomaly_detection_cobblestone.git
+```
 
 
 ###Install Requirements
 Navigate to the project directory and install the required packages using the following command:
+```bash
 cd Anomaly_detection_cobblestone
-Install Dependencies
+```
+###Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ###Running the Project
 You can run the anomaly detection script using the command line:
+```bash
 python anomaly_detection.py
+```
 
 ###Project Structure
+```bash
 anomaly_detection.py: The main script for anomaly detection.
 requirements.txt: A list of required Python packages.
 .gitignore: A file that specifies which files and directories to ignore in the repository.
 README.md: This file.
 creditcard.csv
+```
 
 ### Results and Statistics
 After running the script, you will see the output showing the number of anomalies detected by each algorithm. The following statistics will be printed:
+```bash
 Anomaly Detection Statistics:
 Isolation Forest - Detected Anomalies: X
 Local Outlier Factor - Detected Anomalies: Y
+```
 
 
 ###References
+```bash
 Credit Card Fraud Detection Dataset: Available on Kaggle
 Isolation Forest: Documentation for Isolation Forest in scikit-learn - scikit-learn Isolation Forest
 Local Outlier Factor: Documentation for LOF in scikit-learn - scikit-learn LOF
 Matplotlib: Official documentation for the Python plotting library - Matplotlib
 Pandas: Data analysis library for Python - Pandas Documentation
 Numpy: Fundamental package for numerical computing in Python - NumPy Documentation
+```
