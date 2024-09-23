@@ -89,11 +89,13 @@ Local Outlier Factor - Detected Anomalies: Y
 
 ### References
 
-- Credit Card Fraud Detection Dataset: Available on Kaggle
-- Credit Card Fraud Detection Dataset: Kaggle Dataset
-- Isolation Forest: Documentation for Isolation Forest in scikit-learn - scikit-learn Isolation Forest
-- Local Outlier Factor: Documentation for LOF in scikit-learn - scikit-learn LOF
-- Matplotlib: Official documentation for the Python plotting library - Matplotlib
-- Pandas: Data analysis library for Python - Pandas Documentation
-- Numpy: Fundamental package for numerical computing in Python - NumPy Documentation
+- **Credit Card Fraud Detection Dataset**: [Kaggle Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **Isolation Forest**: [Documentation for Isolation Forest in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
+- **Local Outlier Factor**: [Documentation for LOF in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html)
+- **Matplotlib**: [Official documentation for the Python plotting library](https://matplotlib.org/stable/index.html)
+- **Pandas**: [Data analysis library for Python](https://pandas.pydata.org/docs/index.html)
+- **NumPy**: [Fundamental package for numerical computing in Python](https://numpy.org/doc/)
+- **Online Anomaly Detection for Data Streams**: [StreamAD GitHub Repository](https://github.com/Fengrui-Liu/StreamAD)
+- **Streaming Anomaly Detection Framework in Python**: [pysad GitHub Repository](https://github.com/selimfirat/pysad)
+- **Research Papers**: [GitHub Repository](https://github.com/hoya012/awesome-anomaly-detection)
 
