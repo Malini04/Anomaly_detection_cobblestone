@@ -69,12 +69,15 @@ python anomaly_detection.py
 ```
 
 ### Project Structure
-
-- anomaly_detection.py: The main script for anomaly detection.
-- requirements.txt: A list of required Python packages.
-- .gitignore: A file that specifies which files and directories to ignore in the repository.
-- README.md: This file.
-- creditcard.csv
+```bash
+Anomaly_detection_cobblestone/
+│
+├── anomaly_detection.py        # The main script for anomaly detection.
+├── requirements.txt            # A list of required Python packages.
+├── .gitignore                  # A file that specifies which files and directories to ignore in the repository.
+├── README.md                   # This file.
+└── creditcard.csv              # The dataset for credit card transactions.
+```
 
 ### Results and Statistics
 After running the script, you will see the output showing the number of anomalies detected by each algorithm. The following statistics will be printed:
